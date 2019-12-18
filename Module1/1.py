@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('trades.txt', names = ['Company', 'Price', 'Amount', 'DateTime'])
+df = pd.read_csv('trades.csv', names = ['Company', 'Price', 'Amount', 'DateTime'])
 
 mask1 = (df['DateTime'] > '2019-01-30 07:00:00') & (df['DateTime'] <= '2019-01-31 03:00:00')
 df1=df.loc[mask1]
