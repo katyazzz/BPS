@@ -43,6 +43,6 @@ dfnew = ['Company', 'open', 'high', 'low', 'close']
 pc30 = pc30[dfnew]
 pc240 = pc240[dfnew]
 pc5 = pc5[dfnew]
-print(pc5)
-print(pc30)
-print(pc240)
+print(pc5.to_csv)
+print(pc30.to_csv)
+print(pc240.to_csv)
